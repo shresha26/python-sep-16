@@ -10,7 +10,7 @@ print("pokhara", "lalitpur", "123 ")
 
 
 a = 10
-b = 11
+b = 00
 c = 100
 print (c, a, b, "these are numeric value")
 
