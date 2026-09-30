@@ -21,11 +21,43 @@ a = True
 if a:
   print("always true")
 else:
-  print("else")
-  print("after if")
+   print("else")
+   print("after if")
 
 if True:
-  print("a")
+   print("a")
+
+if (2==3):
+   print("inside if condition")
+   print("True")
+else:
+   print("else condition") 
+
+
+x = 99
+if x > 10:
+   print(f"{x} is greater than 10 ")
+
+
+if 2==2:
+   print("this is true")
+elif(3==3):
+   print("this is elif condition")
+else:
+   print("else condition")
+
+
+percent = 80
+
+if percent >= 80:
+   print("A+")
+elif percent >= 70:
+   print("B+")
+elif percent >= 60:
+   print("C+")
+else:
+   print("Fail")
+
 
 
 percent = 60
@@ -36,10 +68,10 @@ if (percent>100 or percent<0):
 elif percent >= 80 and percent <=100:
   if percent == 100:
     print("topper")
-  elif percent == 80:
+elif percent == 80:
     print("lucky distinction")
-  print("Distinction")
-  print("pass")
+    print("Distinction")
+    print("pass")
 
 elif percent >= 60 and percent <= 79:
   print("first divison")
@@ -51,7 +83,14 @@ else:
   print("fail")
 
 
+gender = "F"
+if gender == "M":
+   print("Male")
+else:
+  print("Female")
 
 
+data = "Male" if gender == "M" else "Female"
+print(data)
 
 

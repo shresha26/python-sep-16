@@ -26,6 +26,7 @@ data = [1,2,3,"hello","test",4.5,True]
 print(data)
 data = []
 print(len(data))
+print(len(data)-1)
 
 data = [1,2,3,"hello","test",6.6, True]
 print(data[2:5])
