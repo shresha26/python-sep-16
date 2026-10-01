@@ -1,0 +1,27 @@
+git branch
+
+git push origin branch_name
+
+
+
+create branch
+
+write code git add .
+git commit -m
+git push ..
+
+
+
+# while making branch(pull request)
+
+feat/login
+
+bug/login-validation
+
+refactor/dashboard-design
+
+hotfix/email-provider
+
+
+make branchcode change
+push that branch. make branch in main
