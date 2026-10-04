@@ -66,3 +66,12 @@ age = 26
 
 print("my first name is", fname, "my last name is", lname, "and my age is", age)
 f'my name is {fname} my last name is {lname} and my age is {age}'
+
+
+#membership
+
+#in, not in
+
+a = [1,2,3,4,5]
+print(3 in a)
+print(6 not in a)
