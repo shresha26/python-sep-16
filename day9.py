@@ -12,7 +12,7 @@ print(a[0])
 print(a[-4])
 
 #a[0]=20
-#print(a
+#print(a)
 
 a = list(a)
 
